@@ -12,6 +12,7 @@ int soma(int num){
 }
 
 int main(){
+  ios_base::sync_with_stdio(0);
   int n, k, e, r, t;
   priority_queue<int> maxHeap;
   cin >> n >> k;
